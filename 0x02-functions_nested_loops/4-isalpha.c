@@ -4,7 +4,7 @@
  * @n: single letter input
  * Return: 1 if c is a letter (lower or uppercase), 0 otherwise
  */
-void _isalpha(int n)
+_isalpha(int n)
 {
 	int r;
 
