@@ -2,17 +2,20 @@
 /**
  * main - Entry point
  *
- * Return: Alway 0 (Sucess)
+ * Return: Always 0
  */
 
 int main(void)
 {
-	char *h = "main\n";
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putcgar('r');
+	_putchar('\n');
 
-	while (*h)
-	{
-		_putchar(*h);
-		h++;
-	}
 	return (0);
 }
